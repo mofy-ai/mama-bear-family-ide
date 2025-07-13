@@ -1,0 +1,20 @@
+{
+  "name": "mofy-mcp-oauth-server",
+  "version": "1.0.0",
+  "description": "OAuth-protected MCP server for MoFy.ai AI family orchestration with browser sign-in",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "typescript": "^5.7.2",
+    "wrangler": "^3.95.0"
+  }
+}

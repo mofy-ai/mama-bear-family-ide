@@ -1,0 +1,14 @@
+name = "mofy-mcp-oauth-server"
+main = "src/index.ts"
+compatibility_date = "2024-12-18"
+
+[vars]
+MOFY_BACKEND_URL = "https://mofy.ai"
+
+[[kv_namespaces]]
+binding = "OAUTH_KV"
+id = "3b8b486a1f7a4a46ae5860a3a43e85ea"
+preview_id = "3b8b486a1f7a4a46ae5860a3a43e85ea"
+
+[build]
+command = "npm run build"
